@@ -22,3 +22,7 @@ An optional item level element that contains the address of the item being repli
 ```
 
 The MST instance will check for the existence of this element when displaying an item's page so that replies can be listed.
+
+----
+
+See [here](https://php-mst.colinwalker.blog/more/) for more details. 
