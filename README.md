@@ -12,10 +12,13 @@ This is an initial version of the 'mst' namespace - originally published 21st Fe
 ```
 xmlns:now="https://php-mst.colinwalker.blog/"
 ```
-						</p>
-						<br>
-						<h3>mst:reply</h3>
-						<p>
-						An optional item level element that contains the address of the item being replied to. It has no attributes and is simply stated as below:
+
+### mst:reply
+
+An optional item level element that contains the address of the item being replied to. It has no attributes and is simply stated as below:
 						
-						<pre><code>&lt;mst:reply>https://colinwalker.blog/php-mst/page.php?t=1676975403&lt;/mst:reply></code></pre>
+```
+<mst:reply>https://colinwalker.blog/php-mst/page.php?t=1676975403</mst:reply>
+```
+
+The MST instance will check for the existence of this element when displaying an item's page so that replies can be listed.
