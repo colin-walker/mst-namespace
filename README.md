@@ -18,7 +18,7 @@ xmlns:now="https://php-mst.colinwalker.blog/"
 An optional item level element that contains the address of the item being replied to. It has no attributes and is simply stated as below:
 						
 ```
-<mst:reply>https://colinwalker.blog/php-mst/page.php?t=1676975403</mst:reply>
+<mst:reply>https://colinwalker.blog/php-mst/page.php?t=1234567890</mst:reply>
 ```
 
 The MST instance will check for the existence of this element when displaying an item's page so that replies can be listed.
