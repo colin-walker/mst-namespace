@@ -10,7 +10,7 @@ The namespace will allow for a single item level element which will specify the 
 This is an initial version of the 'mst' namespace - originally published 21st Fed 2023. This URL should serve as the namespace URI:
 
 ```
-xmlns:now="https://php-mst.colinwalker.blog/"
+xmlns:mst="https://php-mst.colinwalker.blog/"
 ```
 
 ### mst:reply
